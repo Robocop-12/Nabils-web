@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!-- Coding by Nabil -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Inside Out</title>
+		<!--Link Font Awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+		<link rel="stylesheet" href="style.css">
+		<!--swipe broo-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+		<!--Scroll animasi-->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	
+	<body>
+		<!--sound-->
+		<audio hidden autoplay loop>
+		<source src="sound.mp3" type="audio/mpeg">
+		</audio>
+
+		<!--header / Navbar -->
+		<header>
+			<nav class="navbar selection-content">
+				<a href="#" class="nav-logo">
+					<h2 class="logo-text">Disney Pixar</h2>
+				</a>
+				<ul class="nav-menu">
+					<button id="menu-close-button" class="fas fa-times"></button>
+					
+					<li class="nav-item">
+						<a href="#utama" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">History</a>
+					</li>
+					<li class="nav-item">
+						<a href="#tokoh" class="nav-link">Character</a>
+					</li>
+					<li class="nav-item">
+						<a href="#pilem" class="nav-link">Recomend</a>
+					</li>
+					<li class="nav-item">
+						<a href="#member" class="nav-link">Team</a>
+					</li>
+					<li class="nav-item">
+						<a href="#telpon" class="nav-link">Contact us</a>
+					</li>
+				</ul>
+				
+				<button id="menu-open-button" class="fas fa-bars"></button>
+			</nav>
+		</header>
+		
+		<main>
+			<!-- Hero section-->
+			<section class="hero-section" id="utama">
+		
+				<div class="section-content">
+					<div class="hero-details">
+						<h2 class="title" data-aos="fade-down"  data-aos-duration="2000">Best Movie</h2>
+						<h3 class="subtitle" data-aos="fade-up" data-aos-duration="2000">Inside Out</h3>
+						<p class="description" data-aos="fade-up" data-aos-duration="2000"> Inside Out adalah film animasi remaja Amerika Serikat tahun 2015 yang diproduksi oleh Pixar Animation Studios untuk Walt Disney Pictures, disutradarai oleh Pete Docter dan diproduseri oleh Jonas Rivera. </p>
+						
+						<div class="buttons" data-aos="fade-up"
+							data-aos-anchor-placement="top-bottom"  data-aos-duration="2000">
+							<a href="https://www.youtube.com/watch?v=LEjhY15eCx0" class="button Watch">Watch Trailer</a>
+							<a href="https://play.google.com/store/movies/details?id=uUaW7SDjwII.P&pli=1" class="button contact-us">Order Here</a>
+						</div>
+					</div>
+					<div class="hero-image-wraper" data-aos="zoom-out-up"  data-aos-duration="2000">
+						<img src="cover.png" class="hero-image">
+						
+				</div>
+			</section>
+			
+			<!--about section-->
+			
+			<section class="about-section" id="about">
+				<div class="section-content">
+					<div class="about-image-wraper" data-aos="fade-right" data-aos-duration="2000">
+					<img src="cipta.jpg" class="about-image">
+					</div>
+				<div class="about-details">
+					<h2 class="section-title" data-aos="zoom-in" data-aos-duration="2000">Sejarah</h2>
+					<p class="text" data-aos="fade-left" data-aos-duration="2000"> Skenario film ini ditulis oleh Pete Docter, Meg LeFauve dan Josh Cooley, sementara cerita film ini ditulis oleh Pete Docter dan Ronnie del Carmen berdasarkan pengalaman Pete Docter terhadap perubahan perilaku putrinya, Ellie, yang telah menginjak usia 11 tahun. Proses pengembangan film ini dibantu oleh sejumlah ilmuwan psikologis termasuk Dacher Keltner dari Universitas California, Berkeley.
+					</p>
+					<div class="social-link-list">
+					<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+					</div>
+				</div>
+			</section>
+			
+			<!--Character-->
+			<section class="testimonial-section" id="tokoh">
+				<h2 class="section-title" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">Karakter</h2>
+					<div class="section-content">
+						<div class="slider-container swiper">
+							<div class="slider-wrapper">
+								<ul class="testimonial-list swiper-wrapper">
+									<li class="testimonial swiper-slide">
+										<img src="joy.png" class="user-image">
+										<h3 class="name">Joy</h3>
+										<i class="feedback">Kebahagiaan</i>
+									</li>
+									<li class="testimonial swiper-slide">
+										<img src="marah.png" class="user-image">
+										<h3 class="name">Anger</h3>
+										<i class="feedback">Amarah</i>
+									</li>
+									<li class="testimonial swiper-slide">
+										<img src="sedih.png" class="user-image">
+										<h3 class="name">Sadness</h3>
+										<i class="feedback">Kesedihan</i>
+									</li>
+									<li class="testimonial swiper-slide">
+										<img src="jiji.png" class="user-image">
+										<h3 class="name">Disgust</h3>
+										<i class="feedback">Jijik</i>
+									</li>
+									<li class="testimonial swiper-slide">
+										<img src="levi.png" class="user-image">
+										<h3 class="name">Fear</h3>
+										<i class="feedback">Ketakutan</i>
+									</li>
+									<li class="testimonial swiper-slide">
+										<img src="riley.png" class="user-image">
+										<h3 class="name">Riley</h3>
+										<i class="feedback">Tokoh Utama</i>
+									</li>
+								</ul>
+								
+								<div class="swiper-pagination"></div>
+								<div class="swiper-slide-button swiper-button-prev"></div>
+								<div class="swiper-slide-button swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+			</section>
+			
+			<!--Rekomen film-->
+			<section class="menu-section" id="pilem">
+				<h2 class="section-title" data-aos="zoom-in-up" data-aos-duration="1000">Movie Recommendations</h2>
+				<div class="section-content">
+					<ul class="menu-list">
+						<li class="menu-item">
+							<img src="up.jpg" class="menu-image" data-aos="fade-right" data-aos-duration="1000">
+							<h3 class="name" data-aos="zoom-out-up">Up</h3>
+							<p class="text" data-aos="zoom-out-up">Carl, seorang duda tua, melakukan petualangan 
+							dengan bantuan Russell, seorang pramuka, di rumah terbangnya 
+							untuk mencari Air Terjun Paradise, tujuan impian istrinya.</p>
+						</li>
+						<li class="menu-item">
+							<img src="wall.jpg" class="menu-image" data-aos="fade-up" data-aos-duration="1000">
+							<h3 class="name" data-aos="zoom-out-up">WALL-E</h3>
+							<p class="text" data-aos="zoom-out-up">Robot yang bertugas membersihkan Bumi yang dipenuhi 
+							sampah bertemu dengan robot lain dan jatuh cinta padanya. 
+							Bersama-sama, mereka memulai perjalanan yang akan mengubah nasib 
+							umat manusia.</p>
+						</li>
+						<li class="menu-item">
+							<img src="monster.jpg" class="menu-image" data-aos="fade-left" data-aos-duration="1000">
+							<h3 class="name" data-aos="zoom-out-up">Monsters, Inc.</h3>
+							<p class="text" data-aos="zoom-out-up">Di dunia monster, sahabat karib Sulley dan Mike 
+							bekerja di sebuah perusahaan energi yang mengharuskan mereka 
+							menakut-nakuti anak-anak. Namun, kehidupan mereka terganggu oleh 
+							kemunculan seorang anak manusia.</p>
+						</li>
+						<li class="menu-item">
+							<img src="toy.jpg" class="menu-image" data-aos="fade-right" data-aos-duration="1000">
+							<h3 class="name" data-aos="zoom-out-up">Toy Story 4</h3>
+							<p class="text" data-aos="zoom-out-up">Woody selalu percaya diri akan posisinya di dunia dengan 
+							menjaga Andy atau Bonnie. Namun ketika Bonnie menambahkan mainan baru, sebuah 
+							pengembaraan akan membawanya untuk menyaksikan betapa besarnya dunia ini bagi sebuah 
+							mainan seperti dirinya.</p>
+						</li>
+						<li class="menu-item">
+							<img src="incri.jpg" class="menu-image" data-aos="fade-up" data-aos-duration="1000">
+							<h3 class="name" data-aos="zoom-out-up">The Incredibles</h3>
+							<p class="text" data-aos="zoom-out-up">Terpaksa mengadopsi identitas sipil dan terjebak dalam pekerjaan
+							kerah putih, Tn. Incredible ingin kembali beraksi. Ketika ia dijebak oleh Syndrom
+							yang jahat, keluarganya berusaha menyelamatkannya.</p>
+						</li>
+						<li class="menu-item">
+							<img src="dori.jpeg" class="menu-image" data-aos="fade-left" data-aos-duration="1000">
+							<h3 class="name" data-aos="zoom-out-up">Finding Nemo</h3>
+							<p class="text" data-aos="zoom-out-up">Setelah putranya diculik dari Great Barrier Reef dan dikirim ke Sidney,
+							Marlin, seekor ikan badut yang pendiam, meminta bantuan seekor ikan pelupa dan memulai 
+							perjalanan untuk membawanya pulang.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<!--member-->
+			<section class="gallery-section" id="member">
+				<h2 class="section-title" data-aos="zoom-in-down">Team</h2>
+					<div class="section-content">
+						<ul class="gallery-list">
+						
+						<li class="gallery-item">
+							<img src="sug.jpg" class="gallery-image" data-aos="zoom-in-up">
+							<h3 class="nama" data-aos="zoom-out-up">Sukma</h3>
+						</li>
+						<li class="gallery-item">
+							<img src="bil.jpg" class="gallery-image" data-aos="zoom-in-up">
+							<h3 class="nama" data-aos="zoom-out-up">Nabil</h3>
+						</li>
+						<li class="gallery-item">
+							<img src="key.jpeg" class="gallery-image" data-aos="zoom-in-up">
+							<h3 class="nama" data-aos="zoom-out-up">Keisya</h3>
+						</li>
+						<li class="gallery-item">
+							<img src="gar.jpg" class="gallery-image" data-aos="zoom-in-up">
+							<h3 class="nama" data-aos="zoom-out-up">M.Zagar</h3>
+						</li>
+						<li class="gallery-item">
+							<img src="des.jpg" class="gallery-image" data-aos="zoom-in-up">
+							<h3 class="nama" data-aos="zoom-out-up">Radestra</h3>
+						</li>
+						
+						</ul>
+					</div>
+			</section>
+			
+			<!--segera hubungi-->
+			<section class="contact-section" id="telpon">
+				<h2 class="section-title" data-aos="zoom-in-down">Contact-Us</h2>
+				<div class="section-content">
+					<ul class="contact-info-list">
+						<li class="contact-info">
+							<i class="fa-solid fa-location-crosshairs"></i>
+							<p> Jl Kalidam </p>
+						</li>
+						<li class="contact-info">
+							<i class="fa-solid fa-envelope"></i>
+							<p> Kujangjuang@gmail.com </p>
+						</li>
+						<li class="contact-info">
+							<i class="fa-solid fa-phone"></i>
+							<p> 0895323221976 </p>
+						</li>
+						<li class="contact-info">
+							<i class="fa-solid fa-globe"></i>
+							<p> Indonesia </p>
+						</li>
+					</ul>
+				
+				
+				<form action="#" class="contact-form">
+					<input type="text" placeholder="Your name" class="form-input" required>
+					<input type="email" placeholder="Your email" class="form-input" required>
+					<textarea placeholder="Your message" class="form-input" required></textarea>
+
+					<button class="submit-button">Submit</button>
+				</form>
+				</div>
+			</section>
+		</main>
+		
+		<!--Footer-->    
+		<footer>2025 Disney Pixar</footer>
+		
+		<!--Link Swiper-->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<!--Scrip Jawa-->
+		<script src="app.js"></script>
+		<!--Scrip jawa scroll-->
+		 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script> AOS.init(); </script>
+	</body>
+</html>
